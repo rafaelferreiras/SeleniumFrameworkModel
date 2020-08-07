@@ -2,12 +2,98 @@
 <testng-results skipped="0" failed="1" total="10" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginBank" duration-ms="58101" started-at="2020-08-07T01:18:42Z" finished-at="2020-08-07T01:19:40Z">
+  <suite name="LoginBank" duration-ms="49725" started-at="2020-08-07T01:28:53Z" finished-at="2020-08-07T01:29:43Z">
     <groups>
     </groups>
-    <test name="Test Login on IE" duration-ms="35188" started-at="2020-08-07T01:18:42Z" finished-at="2020-08-07T01:19:17Z">
+    <test name="Test Login on FireFox" duration-ms="30101" started-at="2020-08-07T01:28:53Z" finished-at="2020-08-07T01:29:23Z">
       <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="before" is-config="true" duration-ms="11859" started-at="2020-08-06T22:18:42Z" finished-at="2020-08-06T22:18:54Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@a4102b8]" name="before" is-config="true" duration-ms="11996" started-at="2020-08-06T22:28:53Z" finished-at="2020-08-06T22:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fire fox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="16" started-at="2020-08-06T22:29:05Z" finished-at="2020-08-06T22:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessEmpty" duration-ms="4273" started-at="2020-08-06T22:29:05Z" finished-at="2020-08-06T22:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="3" started-at="2020-08-06T22:29:09Z" finished-at="2020-08-06T22:29:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessInvalid" duration-ms="4815" started-at="2020-08-06T22:29:09Z" finished-at="2020-08-06T22:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessInvalid -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T22:29:14Z" finished-at="2020-08-06T22:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessSuccessfully" duration-ms="4992" started-at="2020-08-06T22:29:14Z" finished-at="2020-08-06T22:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessSuccessfully -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="after" is-config="true" duration-ms="3955" started-at="2020-08-06T22:29:19Z" finished-at="2020-08-06T22:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.TestLoginBank -->
+    </test> <!-- Test Login on FireFox -->
+    <test name="Test Login on Chrome" duration-ms="30671" started-at="2020-08-07T01:28:53Z" finished-at="2020-08-07T01:29:24Z">
+      <class name="tests.TestLoginBank">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="before" is-config="true" duration-ms="13842" started-at="2020-08-06T22:28:53Z" finished-at="2020-08-06T22:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T22:29:07Z" finished-at="2020-08-06T22:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessEmpty" duration-ms="3927" started-at="2020-08-06T22:29:07Z" finished-at="2020-08-06T22:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessEmpty -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="4" started-at="2020-08-06T22:29:11Z" finished-at="2020-08-06T22:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessInvalid" duration-ms="6657" started-at="2020-08-06T22:29:11Z" finished-at="2020-08-06T22:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessInvalid -->
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="6" started-at="2020-08-06T22:29:17Z" finished-at="2020-08-06T22:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessSuccessfully" duration-ms="5523" started-at="2020-08-06T22:29:17Z" finished-at="2020-08-06T22:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcessSuccessfully -->
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="after" is-config="true" duration-ms="674" started-at="2020-08-06T22:29:23Z" finished-at="2020-08-06T22:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- tests.TestLoginBank -->
+    </test> <!-- Test Login on Chrome -->
+    <test name="Test Login on IE" duration-ms="37015" started-at="2020-08-07T01:28:53Z" finished-at="2020-08-07T01:29:30Z">
+      <class name="tests.TestLoginBank">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="before" is-config="true" duration-ms="9007" started-at="2020-08-06T22:28:53Z" finished-at="2020-08-06T22:29:02Z">
           <params>
             <param index="0">
               <value>
@@ -18,27 +104,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="133" started-at="2020-08-06T22:18:54Z" finished-at="2020-08-06T22:18:54Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="170" started-at="2020-08-06T22:29:02Z" finished-at="2020-08-06T22:29:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessEmpty" duration-ms="9394" started-at="2020-08-06T22:18:54Z" finished-at="2020-08-06T22:19:03Z">
+        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessEmpty" duration-ms="9451" started-at="2020-08-06T22:29:02Z" finished-at="2020-08-06T22:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T22:19:03Z" finished-at="2020-08-06T22:19:03Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="7" started-at="2020-08-06T22:29:12Z" finished-at="2020-08-06T22:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessInvalid" duration-ms="4165" started-at="2020-08-06T22:19:03Z" finished-at="2020-08-06T22:19:07Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessInvalid" duration-ms="4384" started-at="2020-08-06T22:29:12Z" finished-at="2020-08-06T22:29:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with css selector == .sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:38142/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e4462ba0-58d7-4bde-be8e-fd909ba79a02
+*** Element info: {Using=css selector, value=.sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == .sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:38142/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e4462ba0-58d7-4bde-be8e-fd909ba79a02
+*** Element info: {Using=css selector, value=.sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy11.getAttribute(Unknown Source)
 	at page_objects.LogInBankPage.verifyErrorLogin(LogInBankPage.java:68)
 	at tests.TestLoginBank.verifyAcessInvalid(TestLoginBank.java:43)
@@ -64,113 +178,27 @@
 	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="2" started-at="2020-08-06T22:19:07Z" finished-at="2020-08-06T22:19:07Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="init" is-config="true" duration-ms="3" started-at="2020-08-06T22:29:16Z" finished-at="2020-08-06T22:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessSuccessfully" duration-ms="8947" started-at="2020-08-06T22:19:07Z" finished-at="2020-08-06T22:19:16Z">
+        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="verifyAcessSuccessfully" duration-ms="13410" started-at="2020-08-06T22:29:16Z" finished-at="2020-08-06T22:29:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="after" is-config="true" duration-ms="642" started-at="2020-08-06T22:19:16Z" finished-at="2020-08-06T22:19:17Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@1460a8c0]" name="after" is-config="true" duration-ms="545" started-at="2020-08-06T22:29:29Z" finished-at="2020-08-06T22:29:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- tests.TestLoginBank -->
     </test> <!-- Test Login on IE -->
-    <test name="Test Login on Chrome" duration-ms="36977" started-at="2020-08-07T01:18:42Z" finished-at="2020-08-07T01:19:19Z">
-      <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="before" is-config="true" duration-ms="17325" started-at="2020-08-06T22:18:42Z" finished-at="2020-08-06T22:18:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="9" started-at="2020-08-06T22:18:59Z" finished-at="2020-08-06T22:18:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessEmpty" duration-ms="5815" started-at="2020-08-06T22:18:59Z" finished-at="2020-08-06T22:19:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="3" started-at="2020-08-06T22:19:05Z" finished-at="2020-08-06T22:19:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessInvalid" duration-ms="5902" started-at="2020-08-06T22:19:05Z" finished-at="2020-08-06T22:19:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="init" is-config="true" duration-ms="4" started-at="2020-08-06T22:19:11Z" finished-at="2020-08-06T22:19:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="verifyAcessSuccessfully" duration-ms="6972" started-at="2020-08-06T22:19:11Z" finished-at="2020-08-06T22:19:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@3b2da18f]" name="after" is-config="true" duration-ms="883" started-at="2020-08-06T22:19:18Z" finished-at="2020-08-06T22:19:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- tests.TestLoginBank -->
-    </test> <!-- Test Login on Chrome -->
-    <test name="Test Login on FireFox" duration-ms="41759" started-at="2020-08-07T01:18:42Z" finished-at="2020-08-07T01:19:23Z">
-      <class name="tests.TestLoginBank">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestLoginBank@a4102b8]" name="before" is-config="true" duration-ms="14937" started-at="2020-08-06T22:18:42Z" finished-at="2020-08-06T22:18:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Fire fox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="7" started-at="2020-08-06T22:18:57Z" finished-at="2020-08-06T22:18:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessEmpty()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessEmpty" duration-ms="6631" started-at="2020-08-06T22:18:57Z" finished-at="2020-08-06T22:19:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessEmpty -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="3" started-at="2020-08-06T22:19:03Z" finished-at="2020-08-06T22:19:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessInvalid()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessInvalid" duration-ms="6938" started-at="2020-08-06T22:19:03Z" finished-at="2020-08-06T22:19:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessInvalid -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="init" is-config="true" duration-ms="4" started-at="2020-08-06T22:19:10Z" finished-at="2020-08-06T22:19:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyAcessSuccessfully()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="verifyAcessSuccessfully" duration-ms="6105" started-at="2020-08-06T22:19:10Z" finished-at="2020-08-06T22:19:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAcessSuccessfully -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestLoginBank@a4102b8]" name="after" is-config="true" duration-ms="7107" started-at="2020-08-06T22:19:16Z" finished-at="2020-08-06T22:19:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- tests.TestLoginBank -->
-    </test> <!-- Test Login on FireFox -->
-    <test name="Test SavingsAdd on Chrome" duration-ms="22888" started-at="2020-08-07T01:19:17Z" finished-at="2020-08-07T01:19:40Z">
+    <test name="Test SavingsAdd on Chrome" duration-ms="19624" started-at="2020-08-07T01:29:23Z" finished-at="2020-08-07T01:29:43Z">
       <class name="tests.TestSavingsAdd">
-        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="before" is-config="true" duration-ms="14008" started-at="2020-08-06T22:19:17Z" finished-at="2020-08-06T22:19:31Z">
+        <test-method status="PASS" signature="before(java.lang.String)[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="before" is-config="true" duration-ms="13077" started-at="2020-08-06T22:29:23Z" finished-at="2020-08-06T22:29:36Z">
           <params>
             <param index="0">
               <value>
@@ -181,15 +209,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="init" is-config="true" duration-ms="8211" started-at="2020-08-06T22:19:31Z" finished-at="2020-08-06T22:19:39Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="init" is-config="true" duration-ms="5867" started-at="2020-08-06T22:29:36Z" finished-at="2020-08-06T22:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="Abc()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="Abc" duration-ms="6" started-at="2020-08-06T22:19:39Z" finished-at="2020-08-06T22:19:39Z">
+        <test-method status="PASS" signature="Abc()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="Abc" duration-ms="3" started-at="2020-08-06T22:29:42Z" finished-at="2020-08-06T22:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Abc -->
-        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="after" is-config="true" duration-ms="656" started-at="2020-08-06T22:19:39Z" finished-at="2020-08-06T22:19:40Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:tests.TestSavingsAdd@7ff95560]" name="after" is-config="true" duration-ms="660" started-at="2020-08-06T22:29:42Z" finished-at="2020-08-06T22:29:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->

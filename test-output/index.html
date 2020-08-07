@@ -181,8 +181,26 @@
                   <a name="verifyAcessInvalid">
                   </a> <!-- verifyAcessInvalid -->
                   <span class="method-name">verifyAcessInvalid</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with css selector == .sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-JFIIDIB&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:38142/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: e4462ba0-58d7-4bde-be8e-fd909ba79a02
+*** Element info: {Using=css selector, value=.sufee-alert.alert.with-close.alert-danger.alert-dismissible.fade.show}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy11.getAttribute(Unknown Source)
 	at page_objects.LogInBankPage.verifyErrorLogin(LogInBankPage.java:68)
 	at tests.TestLoginBank.verifyAcessInvalid(TestLoginBank.java:43)
@@ -357,50 +375,50 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyAcessEmpty')
+data.setCell(0, 1, 'verifyAcessSuccessfully')
 data.setCell(0, 2, 'tests.TestLoginBank')
-data.setCell(0, 3, 9394);
+data.setCell(0, 3, 13410);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAcessSuccessfully')
+data.setCell(1, 1, 'verifyAcessEmpty')
 data.setCell(1, 2, 'tests.TestLoginBank')
-data.setCell(1, 3, 8947);
+data.setCell(1, 3, 9451);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyAcessSuccessfully')
+data.setCell(2, 1, 'verifyAcessInvalid')
 data.setCell(2, 2, 'tests.TestLoginBank')
-data.setCell(2, 3, 6972);
+data.setCell(2, 3, 6657);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyAcessInvalid')
+data.setCell(3, 1, 'verifyAcessSuccessfully')
 data.setCell(3, 2, 'tests.TestLoginBank')
-data.setCell(3, 3, 6938);
+data.setCell(3, 3, 5523);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyAcessEmpty')
+data.setCell(4, 1, 'verifyAcessSuccessfully')
 data.setCell(4, 2, 'tests.TestLoginBank')
-data.setCell(4, 3, 6631);
+data.setCell(4, 3, 4992);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyAcessSuccessfully')
+data.setCell(5, 1, 'verifyAcessInvalid')
 data.setCell(5, 2, 'tests.TestLoginBank')
-data.setCell(5, 3, 6105);
+data.setCell(5, 3, 4815);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'verifyAcessInvalid')
 data.setCell(6, 2, 'tests.TestLoginBank')
-data.setCell(6, 3, 5902);
+data.setCell(6, 3, 4384);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'verifyAcessEmpty')
 data.setCell(7, 2, 'tests.TestLoginBank')
-data.setCell(7, 3, 5815);
+data.setCell(7, 3, 4273);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyAcessInvalid')
+data.setCell(8, 1, 'verifyAcessEmpty')
 data.setCell(8, 2, 'tests.TestLoginBank')
-data.setCell(8, 3, 4165);
+data.setCell(8, 3, 3927);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'Abc')
 data.setCell(9, 2, 'tests.TestSavingsAdd')
-data.setCell(9, 3, 6);
+data.setCell(9, 3, 3);
 window.suiteTableData['LoginBank']= { tableData: data, tableDiv: 'times-div-LoginBank'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 57 seconds</span>
               <div id="times-div-LoginBank">
               </div> <!-- times-div-LoginBank -->
             </div> <!-- times-div -->
@@ -428,10 +446,6 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestLoginBank</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">before(Fire fox)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
                 <span class="method-name">before(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
@@ -439,116 +453,120 @@ return data;
                 <span class="method-name">before(InternetExplore)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">before(Fire fox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">11864 ms</span>
+                <span class="method-start">9012 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessEmpty</span>
-                <span class="method-start">11997 ms</span>
+                <span class="method-start">9182 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">14937 ms</span>
+                <span class="method-start">11996 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessEmpty</span>
-                <span class="method-start">14944 ms</span>
+                <span class="method-start">12012 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">17325 ms</span>
+                <span class="method-start">13842 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessEmpty</span>
-                <span class="method-start">17334 ms</span>
+                <span class="method-start">13844 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">21402 ms</span>
+                <span class="method-start">16309 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAcessInvalid</span>
+                <span class="method-start">16312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">17781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAcessInvalid</span>
+                <span class="method-start">17785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">init</span>
+                <span class="method-start">18637 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyAcessInvalid</span>
-                <span class="method-start">21404 ms</span>
+                <span class="method-start">18644 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">21578 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyAcessInvalid</span>
-                <span class="method-start">21581 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init</span>
-                <span class="method-start">23161 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyAcessInvalid</span>
-                <span class="method-start">23164 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">init</span>
-                <span class="method-start">25578 ms</span>
+                <span class="method-start">21133 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessSuccessfully</span>
-                <span class="method-start">25580 ms</span>
+                <span class="method-start">21135 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">28521 ms</span>
+                <span class="method-start">23041 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessSuccessfully</span>
-                <span class="method-start">28525 ms</span>
+                <span class="method-start">23044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">29068 ms</span>
+                <span class="method-start">24444 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAcessSuccessfully</span>
-                <span class="method-start">29072 ms</span>
+                <span class="method-start">24450 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">after</span>
-                <span class="method-start">34530 ms</span>
+                <span class="method-start">26130 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">after</span>
-                <span class="method-start">34636 ms</span>
+                <span class="method-start">29981 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestSavingsAdd</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">before(Chrome)</span>
-                <span class="method-start">35200 ms</span>
+                <span class="method-start">30100 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestLoginBank</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">after</span>
-                <span class="method-start">36078 ms</span>
+                <span class="method-start">36454 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.TestSavingsAdd</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">init</span>
-                <span class="method-start">49209 ms</span>
+                <span class="method-start">43177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Abc</span>
-                <span class="method-start">57420 ms</span>
+                <span class="method-start">49044 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">after</span>
-                <span class="method-start">57429 ms</span>
+                <span class="method-start">49049 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
