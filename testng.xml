@@ -25,6 +25,7 @@
 		
 	<test name="Test SavingsAdd on Chrome">
 		<parameter name="DriverType" value="Chrome" />
+		<parameter name="Menu" value="SavingsAdd" />
 		<classes>
 			<class name="tests.TestSavingsAdd" />
 		</classes>

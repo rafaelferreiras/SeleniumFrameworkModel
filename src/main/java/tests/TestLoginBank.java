@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import action_test.LoginAction;
-import managers.BasePage;
 import managers.BaseTestFactory;
 import page_objects.LogInBankPage;
 import utilities.JsonHandler;

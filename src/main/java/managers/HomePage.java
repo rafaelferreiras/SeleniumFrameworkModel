@@ -1,9 +1,7 @@
-package page_objects;
+package managers;
 
 
 import org.openqa.selenium.support.PageFactory;
-
-import managers.BasePage;
 
 public class HomePage extends BasePage {
 
