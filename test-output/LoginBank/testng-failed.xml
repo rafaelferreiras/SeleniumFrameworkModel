@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [LoginBank]" parallel="tests">
+  <parameter name="DriverType" value="Chrome"/>
+  <test name="Test Login on IE(failed)" parallel="tests">
+    <parameter name="DriverType" value="InternetExplore"/>
+    <classes>
+      <class name="tests.TestSavingsAdd">
+        <methods>
+          <include name="before"/>
+          <include name="init"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- tests.TestSavingsAdd -->
+      <class name="tests.TestLoginBank">
+        <methods>
+          <include name="verifyAcessInvalid"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="before"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="init"/>
+          <include name="after"/>
+          <include name="after"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- tests.TestLoginBank -->
+    </classes>
+  </test> <!-- Test Login on IE(failed) -->
+</suite> <!-- Failed suite [LoginBank] -->

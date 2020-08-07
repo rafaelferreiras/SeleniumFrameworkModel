@@ -1,0 +1,19 @@
+{
+  "LoginValid": {
+    "username": "testing@gmail.com",
+    "password": "Test123456",
+    "message": "Welcome RAFAEL",
+    
+  },
+  "LoginInvalid": {
+    "username": "invalid@teste.com",
+    "password": "invalid_pass",
+    "message": "Invalid credentials or access not granted.",
+  },
+  "LoginAllEmpty": {
+    "username": "",
+    "password": "",
+    "message": "Invalid credentials or access not granted.",
+    
+  }
+}

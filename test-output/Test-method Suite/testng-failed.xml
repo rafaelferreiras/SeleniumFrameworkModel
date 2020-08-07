@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Test-method Suite]" parallel="classes">
+  <parameter name="DriverType" value="Chrome"/>
+  <test name="Test-method test(failed)" parallel="classes">
+    <parameter name="DriverType" value="Chrome"/>
+    <classes>
+      <class name="tests.TestLoginBank">
+        <methods>
+          <include name="verifyAcessEmpty"/>
+          <include name="verifyAcessInvalid"/>
+          <include name="before"/>
+          <include name="after"/>
+          <include name="verifyAcessSuccessfully"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- tests.TestLoginBank -->
+    </classes>
+  </test> <!-- Test-method test(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(.,'Welcome RAFAEL')]\"}\n  (Session info: chrome=80.0.3987.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8e385089f22c5badf1d7c2fbdba372aa\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "children" : [ {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "3d71b1e9d53adae8",
+        "parentUid" : "63cfbc89675e090e442cbc0ed809e760",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595249424935,
+          "stop" : 1595249437869,
+          "duration" : 12934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome" ]
+      } ],
+      "uid" : "63cfbc89675e090e442cbc0ed809e760"
+    }, {
+      "name" : "Unable to find element with xpath == //li[contains(.,'Welcome RAFAEL')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31603/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}\nSession ID: 9fbd7d97-b7aa-4736-bb67-cdafe7d6d4f1\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "children" : [ {
+        "name" : "verifyAcessSuccessfully",
+        "uid" : "13dc887580dfaa5d",
+        "parentUid" : "d74b224c343e3c9496b3b63522fc969d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595249476628,
+          "stop" : 1595249494320,
+          "duration" : 17692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "InternetExplore" ]
+      } ],
+      "uid" : "d74b224c343e3c9496b3b63522fc969d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

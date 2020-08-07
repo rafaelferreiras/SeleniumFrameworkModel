@@ -1,0 +1,175 @@
+{
+  "3a94df3baa219f296ee5cbdca3a394b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc1cad1a557f7679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249422877,
+        "stop" : 1595249424929,
+        "duration" : 2052
+      }
+    } ]
+  },
+  "db074269914fae4420c4e2bcb58e8008" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13dc887580dfaa5d",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with xpath == //li[contains(.,'Welcome RAFAEL')]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.ie.InternetExplorerDriver\nCapabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31603/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}\nSession ID: 9fbd7d97-b7aa-4736-bb67-cdafe7d6d4f1\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "time" : {
+        "start" : 1595249476628,
+        "stop" : 1595249494320,
+        "duration" : 17692
+      }
+    } ]
+  },
+  "c908b1f0a934261a0dc5035f8e88ef6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdf6910cfeecd827",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249449697,
+        "stop" : 1595249453052,
+        "duration" : 3355
+      }
+    } ]
+  },
+  "d3763588732976bfb061389857ae002b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d3bbae2c8a40f85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249419102,
+        "stop" : 1595249422821,
+        "duration" : 3719
+      }
+    } ]
+  },
+  "2cb0e339dceb213e11b4bae1477e9d10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ad0005b1ae7dae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249468116,
+        "stop" : 1595249474812,
+        "duration" : 6696
+      }
+    } ]
+  },
+  "3e000d4cb1e2c23c0a9d459c4ae0ed4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b124cd4465e60f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249453055,
+        "stop" : 1595249458399,
+        "duration" : 5344
+      }
+    } ]
+  },
+  "8fdad51c5b5952cfd5ddead1e4e982b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d71b1e9d53adae8",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[contains(.,'Welcome RAFAEL')]\"}\n  (Session info: chrome=80.0.3987.116)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-JFIIDIB', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.116, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49956}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8e385089f22c5badf1d7c2fbdba372aa\n*** Element info: {Using=xpath, value=//li[contains(.,'Welcome RAFAEL')]}",
+      "time" : {
+        "start" : 1595249424935,
+        "stop" : 1595249437869,
+        "duration" : 12934
+      }
+    } ]
+  },
+  "dd35989ecc7781d33f24011c484065fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42fdb364fc4204d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249446388,
+        "stop" : 1595249449688,
+        "duration" : 3300
+      }
+    } ]
+  },
+  "3cca427bd07a853d4a579d5994392b94" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f279cd7f028a0fdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595249474815,
+        "stop" : 1595249476625,
+        "duration" : 1810
+      }
+    } ]
+  }
+}
